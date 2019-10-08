@@ -1,0 +1,74 @@
+html, body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Open Sans', sans-serif;
+
+}
+
+.view-container {
+    height: 100vh;
+    background-image: url("./fog-1850228_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#app-title {
+    margin-top: 5%;
+}
+.container {
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.summary {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#button {
+    background-color: #00aaff41;
+    border-color: #000000;
+    border-radius: 12px;
+    height: 70px;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#inputLocation {
+    height: 60px;
+    width: 20rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+#location {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#summary {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temp {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 1px black;
+}
