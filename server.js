@@ -3,6 +3,8 @@ const path = require("path")
 const app = express();
 const {main} = require("./lib/app")
 
+const port = process.env.PORT || 3000;
+
 
 
 app.use(express.static(path.join(__dirname, "public")))
@@ -13,6 +15,6 @@ app.get("/weather", async (req,res) => {
     res.send(data)
 })
 
-app.listen(3001,() => {
-    console.log('listening on port 3001')
+app.listen(port,() => {
+    console.log(`server is running on ${port}`)
 })
